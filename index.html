@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Logo
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li>
+                    <a href="#main">Home</a>
+                </li>
+                <li>
+                    <a href="#about-us">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact-us">Contact</a>
+                </li>
+                <li>
+                    <a href="#footer">Donate</a>
+                </li>
+
+
+            </ul>
+        </div>
+        <span>M</span>
+    </nav>
+
+    <!-- Main container -->
+    <div>
+    <main  class="main" id="main">
+        
+    </main>
+    <div class="overlay">
+        <h2>Save her future by supporting<br> livilehood through GYNED-SSD</h2>
+    </div>
+</div>
+
+
+    <div class="about-us01" id="about-us">
+        <h3> Our Focus</h3>
+        <div class="about-sub">
+
+            <div class="about01"><img src="image02.jpg" width="600" alt=""></div>
+
+           <div class="desc01">
+            <p>GYNED-SSD addresses<br>
+            crosscutting issues evolving around the welfare,<br>
+             of youth and young people, especially<br>
+
+        women and girls from the trepidation of society in South Sudan.</p> 
+     
+    </div>
+        </div>
+        <div class="about-sub02">
+            <div class="desc02">
+                <p>GYNED-SSD advocate for peace<br>
+                through empowerment of,<br>
+                  the less fortunate people in the society.<br>
+    
+            We believe in social change through  skills and social support.</p> 
+         
+        </div>
+        <div class="about01"><img src="image05.jpg" width="600" alt=""></div>
+
+        </div>
+        
+    </div>
+
+    <div class="contact-us" id="contact-us">
+        <h3>Contact Us</h3>
+        <!--  footer-->
+        <div class="footer" id="footer">
+        <div>
+            <h4>Get In Touch</h4>
+        <form>
+            <label>Enter Your Name</label>
+            <input type="text" placeholder="Enter your name">
+            <label>Enter Email</label>
+            <input type="email" placeholder="Enter your email">
+            <label>Enter Password</label>
+            <input type="password" placeholder="Enter your password">
+            <textarea rows="6" placeholder="Write your message"></textarea>
+
+        </form>
+        <button type="submit" id="submit">Submit</button>
+    </div>
+        <div id="map">
+
+        </div>
+        <div class="info">
+            <h4>About Us</h4>
+            
+    <div class="accordian-container">
+        <div class="accordian">
+            <div class="accordian-question">
+                <p>Our Mission</p>
+            </div>
+            <div class="accordian-answer">
+               <p>We build capacities and advocate for the improvement of the socio-economic status 
+                of the marginalized and less fortunate, and promote the social rights of young 
+                 through collective sensitization and training; seeking to positively influence and 
+                 empower them to be developed and become self-reliant and instill
+                 in them leadership values and qualities in exploring their future possibilities</p> 
+            </div>
+        </div>
+        <div class="accordian">
+            <div class="accordian-question">
+                <p>Vission</p>
+            </div>
+            <div class="accordian-answer">
+               <p>We envision a poverty free world where young people have the opportunities 
+                to maximize their fullest potentials</p> 
+            </div>
+        </div>
+        <div class="accordian">
+            <div class="accordian-question">
+                <p>Our Objectives</p>
+            </div>
+            <div class="accordian-answer">
+               <p>To actively embark and engage on advocacies and campaigns on human rights, 
+                early girl child marriage, rape, child labor, irregular migration, prioritizing 
+                investment in young people, climate change issues, and likewise promote gender equality,
+                 justice, non-violence, and sexual reproductive health, rights and education</p> 
+            </div>
+        </div>
+        </div>
+            <!-- 
+            <ul  class="accordian">
+                <li>
+                    <span>Our Mission</span>
+                    <p>We build capacities and advocate for the improvement of the socio-economic status 
+                        of the marginalized and less fortunate, and promote the social rights of young 
+                         through collective sensitization and training; seeking to positively influence and 
+                         empower them to be developed and become self-reliant and instill
+                         in them leadership values and qualities in exploring their future possibilities</p>
+                </li>
+                <li>
+                    <span>Our Objectives</span>
+                    <p>To actively embark and engage on advocacies and campaigns on human rights, 
+                        early girl child marriage, rape, child labor, irregular migration, prioritizing 
+                        investment in young people, climate change issues, and likewise promote gender equality,
+                         justice, non-violence, and sexual reproductive health, rights and education</p>
+                </li>
+                <li>
+                    <span>Vission</span> 
+                    <p>We envision a poverty free world where young people have the opportunities 
+                        to maximize their fullest potentials
+                    </p>
+                </li>
+                <li>
+                    <span> Team</span>
+                    <p>Top-level management consists of several common positions:
+                        Chief Executive Officer (CEO),
+                        Chief Financial Officer (CFO),
+                        Chief Operating Officer (COO).
+                        </p>
+                </li>
+                 <li>
+                    <span>Our Slogan $ Motto</span>
+                    <p>OUR MOTTO<br>
+                        Igniting Positive Change.<br>
+                        OUR SLOGAN<br>
+                        Empowering Young People to become leaders in Development
+                        </p>
+                </li>
+            </ul>
+        </div> -->
+    </div>
+    </div>
+  
+    
+    
+
+    <script async defer src="https://unpk.com/leaflets/dist/leaflet.js"></script>
+    <script>
+        var map=L.map('map').setView([51.506,-0.09],13);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+navigator.geolocation.watchPosition(success,error);
+
+let marker,circle;
+
+function success(pos){
+
+    const lat=pos.coords.latitude;
+    const lng=pos.coords.longitude;
+    const accuracy=pos.coords.accuracy;
+
+    if(marker){
+        map.removeLayer(marker);
+        map.removeLayer(circle);
+    }
+
+    marker=L.marker([lat,lng]).addTo(map);
+    circle=L.circle([lat,lng],{radius:accuracy}).addTo(map);
+    
+    map.fitBounds(circle.getBounds());
+
+}
+function error(){
+    if(err.code===1){
+        alert("Please allow geolocation access")
+    }else{
+        alert("Can not get your current location")
+    }
+}
+
+// Accordian funtionality
+/* 
+const li=document.querySelectorAll('.accordian');
+li.forEach(function(){
+    const child=li.childElement;
+    child.e.target.classList.toggle('show-text');
+})
+
+
+
+window.addEventListener('DOMContentLoad',function(){
+    const listItem=document.querySelectorAll('.accordian li');
+}) */
+/* 
+ const  listItem=document.querySelectorAll('.accordian');
+ console.log(listItem);
+
+listItem.forEach(item=>{
+    item.addEvenListener('click',e=>{
+        const accordianListItem=e.target;
+        accordianListItem.classList.toggle('show-text');
+    })
+}) */
+
+
+
+
+const accordian=document.querySelectorAll('.accordian');
+
+accordian.forEach((question)=>{
+const btn=question.querySelector('.accordian-answer');
+const sbtn=question.querySelector('.accordian-question');
+
+  question.addEventListener('click',()=>{
+    
+    accordian.forEach((item)=>{
+    if(item!==question){
+        item.classList.remove('active');
+    }
+});
+    btn.classList.toggle('active');
+    sbtn.classList.toggle('active');
+  });
+});
+
+
+
+
+
+    </script>
+</body>
+</html>
